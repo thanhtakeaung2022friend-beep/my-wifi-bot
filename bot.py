@@ -6,7 +6,7 @@ import time
 BOT_TOKEN = "8953132746:AAE51eLwuscQZMA-64tKE8MJ95uyqzNH-O8"
 bot = telebot.TeleBot(BOT_TOKEN)
 
-scanning_status = {}
+scanning_status = {}j
 
 def brute_force_ruijie(chat_id, portal_url):
     scanning_status[chat_id] = True
